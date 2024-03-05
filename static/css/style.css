@@ -1,0 +1,56 @@
+/* basic formatting for html elements */
+p {
+    color: red;
+    font-family: "Comic Sans MS", serif;
+    padding: 1px 200px 1px 200px;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    color: pink;
+}
+
+html {
+    background-color: black;
+}
+
+h1 {
+    color: bisque;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+table {
+    border-color: grey;
+    border-style: double;
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* special id for the newest paragraph */
+P#special-paragraph {
+    text-align: center;
+    font-family: "Chalkboard SE", serif;
+    padding: 1px 200px 1px 200px;
+    color: orange;
+}
+
+/* style for lists to make the actual bullet/number center aligned */
+.align {
+    display: inline-block;
+    text-align: left;
+}
+
+/* class for the smith logo */
+.logo {
+    width: auto ;
+    height: auto;
+
+}
