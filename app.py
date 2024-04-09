@@ -231,7 +231,8 @@ def training():
     flash(
         f'Welcome to your training for the TerpSys Student Information System. Training materials are currently under '
         f'construction,but will be created very soon. Please check back soon or email Benjamin McDonald at'
-        '<a href="mailto: bmcdona1@terpmail.edu</a> if you wish to be placed on the waiting list.'
+        '<a href="mailto:bmcdona1@terpmail.edu> bmcdona1@terpmail.edu </a> if you wish to be placed on the waiting '
+        'list.'
     )
     return render_template('training.html')
 
