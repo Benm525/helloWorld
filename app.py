@@ -223,10 +223,16 @@ def page_not_found(e):
         'error')
     return render_template('404.html'), 404
 
-
+# created training route, access for ADMIN and Manager only. Displays message for trainee.
 @app.route('/training')
+@login_required
+@role_required(['ADMIN', 'MANAGER'])
 def training():
-
+    flash(
+        f'Welcome to your training for the TerpSys Student Information System. Training materials are currently under '
+        f'construction,but will be created very soon. Please check back soon or email Benjamin McDonald at'
+        '<a href="mailto: bmcdona1@terpmail.edu</a> if you wish to be placed on the waiting list.'
+    )
     return render_template('training.html')
 
 
